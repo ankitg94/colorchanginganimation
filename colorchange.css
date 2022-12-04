@@ -1,0 +1,110 @@
+.colorchange{
+    height: 540px;
+    width: 1200px;
+    background-color: aliceblue;
+    border: 5px double black;
+    animation: 4s linear 0.5s infinite changec;
+    text-align: center;
+    font-size: x-large;
+}
+.text{
+    color: black;
+    margin: 270px 500px;
+    background-color: aqua;
+    border-radius: 100%;
+    animation: 4s linear 0.5s infinite namech;
+}
+@keyframes namech{
+    0%{
+        background-color: rebeccapurple;
+    }
+    10%{
+        background-color: greenyellow;
+    }
+    20%{
+        background-color: white;
+    }
+    30%{
+        background-color:burlywood;
+    }
+    40%{
+        background-color: red;
+    }
+    50%{
+        background-color: goldenrod;
+    }
+    60%{
+        background-color: brown;
+    }
+    70%{
+        background-color: cyan;
+    }
+    80%{
+        background-color: blueviolet;
+    }
+    90%{
+        background-color: rosybrown;
+    }
+    100%{
+        background-color:whitesmoke;
+    }
+}
+@keyframes changec{
+    0%{
+        background-color: aqua;
+    }
+    10%{
+        background-color: bisque;
+    }
+    20%{
+        background-color: black;
+    }
+    30%{
+        background-color: brown;
+    }
+    40%{
+        background-color: chartreuse;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    60%{
+        background-color: darkgray;
+    }
+    70%{
+        background-color: crimson;
+    }
+    80%{
+        background-color: darkorange;
+    }
+    90%{
+        background-color: cornflowerblue;
+    }
+    100%{
+        background-color: cyan;
+    }
+}
+/*
+@keyframes name{
+   0%{
+      background-color: black;
+   }
+   25%{
+      background-color: brown;
+   }   
+   50%{
+    background-color: blueviolet;
+   }
+   100%{
+    background-color: chocolate;
+   }
+}
+*/
+/*
+.text{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2600px;
+    animation: 4s alternate-reverse 0.5s infinite name;
+}
+*/
